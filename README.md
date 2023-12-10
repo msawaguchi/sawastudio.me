@@ -1,5 +1,5 @@
 # sawastudio.me
 
 <p align="center">
-  <img src="src/assets/sawastudiome.gif">
+  <img src="src/assets/images/sawastudiome.gif">
 </p>
