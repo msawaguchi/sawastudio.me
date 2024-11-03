@@ -43,7 +43,8 @@ export const ProjectsContent = styled.div`
   }
 `
 export const ProjectsList = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 6px;
   margin-bottom: 2.5rem;
 
@@ -71,6 +72,12 @@ export const ProjectsList = styled.div`
 
     span {
       color: white;
+    }
+
+    div {
+      color: white;
+      display: flex;
+      align-items: center;
     }
 
     svg {

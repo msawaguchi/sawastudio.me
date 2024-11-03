@@ -4,7 +4,7 @@ export default {
       intro:
         'Hello! My name is Missae Sawaguchi, or just Sawa. I’m a software developer since 2016. front-end focused.',
       intro_formation: 'Computer Science',
-      intro_locale: 'São Paulo, Brazil',
+      intro_locale: 'Porto, Portugal',
       tech: 'Techs',
       tech_about: 'I have experience working with:',
       blog_last_post: 'Last Post',
@@ -100,7 +100,7 @@ export default {
     projects: {
       projects: 'projects',
       projects_intro:
-        'Here are some of my projects. You can check the code on Github',
+        'Here are some of the projects I have worked on. The remaining ones can be found on GitHub. I also enjoy creating new interfaces; below are some UI designs I crafted using Figma. ',
       projects_visit: 'Visit my Github',
       project1:
         'Coffee Delivery is coffee e-commerce front-end that uses Context API and json-server.',
@@ -110,6 +110,20 @@ export default {
         'Tender Note simulates a retro paper letter/note, where we can paste stickers and drawings.',
       project4:
         'An easy way to create a personal blog: create a repository and the issues will be the posts.',
+      project5:
+        'Mobile version of an e-commerce for a florist named Jocy. Only the UI Design created.',
+      project6:
+        'Mobile version of a digital bank, created in Figma. Only the UI Design created.',
+      project7:
+        'My portfolio, design initially done in Figma and then implemented using ReactJS.',
+      project8:
+        'UI Design for an HR administration panel, allowing organization of job applications.',
+      project9:
+        'QS Kitchen is a restaurant menu front-end built with React.js, Jest, Redux and more.',
+      project10:
+        'Hiragana, Katakana and Numbers quiz made with ReactJS. Guess the romanji version!',
+      project11:
+        'Create tickets and manage your tasks in this nice kanban built with Svelte.',
     },
     blog: {
       blog_read_more: 'read more',
