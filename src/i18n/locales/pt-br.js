@@ -4,7 +4,7 @@ export default {
       intro:
         'Olá! Meu nome é Missae Sawaguchi, ou apenas Sawa. Sou Software Developer desde 2016, com foco em front-end.',
       intro_formation: 'Ciência da Computação',
-      intro_locale: 'Porto, Portugal',
+      intro_locale: 'São Paulo, Brasil',
       tech: 'Tecnologias',
       tech_about: 'Tenho experiência trabalhando com:',
       blog_last_post: 'Último post',

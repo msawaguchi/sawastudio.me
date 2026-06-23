@@ -60,27 +60,31 @@ export function Contact() {
       }
     }
 
-    axios({
-      method: 'post',
-      url: `${API_PATH}`,
-      headers: { 'content-type': 'application/json' },
-      data: formData,
-    }).then((result) => {
-      if (result.data.error) {
-        alert(
-          t('contact.contact_failed') +
-            result.data.error +
-            t('contact.contact_failed_try_again'),
-        )
-      }
-    })
+    try {
+      const result = await axios.post(API_PATH, formData, {
+        headers: { 'content-type': 'application/json' },
+      })
 
-    setSenderName('')
-    setSubject('')
-    setEmail('')
-    setMessage('')
-    setMailSent(true)
-    setButtonsent(false)
+      if (!result.data?.sent) {
+        throw new Error(result.data?.message || 'Unknown error')
+      }
+
+      setSenderName('')
+      setSubject('')
+      setEmail('')
+      setMessage('')
+      setMailSent(true)
+    } catch (err) {
+      const message =
+        err.response?.data?.message || err.message || 'Unknown error'
+      alert(
+        t('contact.contact_failed') +
+          message +
+          t('contact.contact_failed_try_again'),
+      )
+    } finally {
+      setButtonsent(false)
+    }
   }
 
   return (
