@@ -2,30 +2,47 @@ export const APP = {
   name: 'CID 360°',
   tagline: 'Consulta rápida CID-10 e CID-11',
   shortDescription:
-    'App para buscar códigos CID-10 e CID-11 por nome da doença, termo clínico ou número do código.',
+    'App para buscar códigos CID-10 e CID-11 por nome da doença, termo clínico ou número do código offline.',
 }
 
 export const LINKS = {
-  contactEmail: 'contato@sawastudio.me',
+  contactEmail: 'contact@sawastudio.me',
   privacy: '/cid360app/privacidade',
   terms: '/cid360app/termos',
   support: '#',
   googlePlay:
     'https://play.google.com/store/apps/details?id=sawastudio.me.cid360',
-  appStore: '#',
+  appStore:
+    'https://apps.apple.com/us/app/cid-360-busca-cid-11-cid-10/id6784022155',
 }
 
 export const SEO = {
-  title: 'CID 360° | Consulta CID-10 e CID-11',
+  title: 'Busca CID-11 offline em português | Aplicativo CID 360°',
   description:
-    'Busque códigos CID-10 e CID-11 por doença, termo clínico ou número do código. Consulte equivalências, favoritos, anotações, SIGTAP e TUSS.',
+    'Consulte códigos CID-11 por nome, código ou termo clínico. O CID 360° ajuda médicos, estudantes e profissionais da saúde a encontrar CIDs rapidamente.',
   keywords:
     'CID, CID-10, CID-11, consulta CID, código CID, classificação internacional de doenças, SIGTAP, TUSS, saúde',
+  robots: 'index, follow',
+  canonical: 'https://sawastudio.me/cid360app',
   og: {
     title: 'CID 360°',
     description: 'Consulta rápida CID-10 e CID-11 para rotina da saúde.',
     image: '',
     type: 'website',
+  },
+  structuredData: {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'CID 360',
+    applicationCategory: 'MedicalApplication',
+    operatingSystem: 'iOS, Android',
+    description:
+      'Aplicativo para busca e consulta de códigos CID-11 em português.',
+    url: 'https://sawastudio.me/cid360app',
+    creator: {
+      '@type': 'Organization',
+      name: 'Sawa Studio',
+    },
   },
 }
 
@@ -39,11 +56,11 @@ export const NAV_ITEMS = [
 export const HERO = {
   title: 'Consulta CID-10 e CID-11 em uma experiência simples e completa.',
   subtitle:
-    'Busque códigos por doença, termo clínico ou número do CID. Organize favoritos, anotações e acesse recursos profissionais em um app feito para a rotina da saúde.',
-  availabilityNote: 'Disponível em breve nas lojas oficiais.',
+    'Busque códigos por doença, termo clínico ou número do CID no aplicativo CID 360°. Organize favoritos, anotações e acesse recursos profissionais em um app feito para a rotina da saúde.',
+  availabilityNote: 'Disponível gratuitamente nas lojas oficiais.',
   ctaPrimary: 'Baixar e começar agora',
   androidLabel: 'Baixar para Android',
-  iosLabel: 'Baixar para iPhone (Em breve)',
+  iosLabel: 'Baixar para iPhone',
 }
 
 export const WHY = {
@@ -51,7 +68,7 @@ export const WHY = {
   cards: [
     {
       title: 'Busca rápida',
-      text: 'Encontre códigos CID-10 e CID-11 pesquisando por termo clínico, nome da condição ou número do código.',
+      text: 'Encontre códigos CID-10 e CID-11 offline, pesquisando por termo clínico, nome da condição ou número do código.',
     },
     {
       title: 'Detalhes organizados',
@@ -69,7 +86,7 @@ export const WHY = {
 }
 
 export const FEATURES = {
-  title: 'Tudo em um só lugar para consulta CID.',
+  title: 'CID 360° - Tudo em um só lugar para consulta CID.',
   items: [
     {
       title: 'Busca CID-10 e CID-11',
@@ -231,8 +248,7 @@ export const DOWNLOAD = {
   googlePlayLabel: 'Google Play',
   appStoreLabel: 'App Store',
   comingSoonLabel: 'Em breve',
-  notifyText:
-    'Quer ser avisado no lançamento? Entre em contato pelo e-mail abaixo.',
+  notifyText: 'Disponível para download nas lojas oficiais.',
 }
 
 export const FAQ = {
@@ -379,7 +395,7 @@ export const LEGAL = {
       '21. Contato',
       'Em caso de dúvidas, solicitações, suporte ou questões relacionadas a estes Termos, entre em contato:',
       'Sawa Studio',
-      'E-mail: contato@sawastudio.me',
+      'E-mail: contact@sawastudio.me',
       'Site: https://sawastudio.me/cid360app',
     ],
   },
@@ -392,7 +408,7 @@ export const LEGAL = {
       'Ao utilizar o Aplicativo, você declara que leu e compreendeu esta Política de Privacidade.',
       '1. Quem Somos',
       'O CID 360°é um aplicativo de consulta e organização de códigos CID-10, CID-11 e recursos relacionados, como equivalências, favoritos, anotações, SIGTAP, TUSS via SIGTAP e pós-coordenação CID-11, conforme disponibilidade e plano.',
-      'Controlador dos dados, quando aplicável: Sawa Studio. E-mail de contato: contato@sawastudio.me. Site: https://sawastudio.me/cid360app',
+      'Controlador dos dados, quando aplicável: Sawa Studio. E-mail de contato: contact@sawastudio.me. Site: https://sawastudio.me/cid360app',
       '2. Escopo desta Política',
       'Esta Política se aplica ao uso do Aplicativo CID 360, incluindo suas funcionalidades gratuitas e pagas, conta de usuário, favoritos, anotações, backup, sincronização, pacotes baixáveis, compras, anúncios e recursos premium.',
       'Esta Política não se aplica a sites, serviços, lojas, plataformas ou sistemas de terceiros, ainda que acessados por meio do Aplicativo. Esses terceiros possuem suas próprias políticas de privacidade.',
@@ -477,7 +493,7 @@ export const LEGAL = {
       '23. Contato',
       'Para dúvidas, solicitações, suporte, privacidade ou exercício de direitos relacionados a dados pessoais, entre em contato:',
       'Sawa Studio',
-      'E-mail: contato@sawastudio.me',
+      'E-mail: contact@sawastudio.me',
       'Site: https://sawastudio.me/cid360app',
       'Ao entrar em contato, informe de forma clara sua solicitação para que possamos responder adequadamente.',
     ],

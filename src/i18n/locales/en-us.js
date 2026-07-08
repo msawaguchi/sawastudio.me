@@ -2,7 +2,7 @@ export default {
   translations: {
     hero: {
       intro:
-        'Hello! My name is Missae Sawaguchi, or just Sawa. I’m a software developer since 2016. front-end focused.',
+        'Hello! My name is Missae Sawaguchi, or just Sawa. I’m a software developer since 2016. front-end and mobile focused. Welcome to my studio!',
       intro_formation: 'Computer Science',
       intro_locale: 'São Paulo, Brasil',
       tech: 'Techs',
@@ -19,6 +19,8 @@ export default {
     },
     about: {
       about: 'about',
+      about_studio_intro:
+        'Sawa Studio is an independent creative studio for mobile apps and websites, writing, and also a portfolio of personal projects. Below you can learn a little more about me and my journey, and then the projects I have developed.',
       about_intro:
         'I started getting interested in computing at the age of 11, during my first encounter with a PC. Initially, my focus was more on hardware, but that changed when I took a technical course in computer science in 2012. There, I learned programming logic, databases, web, and desktop programming. My interest in programming grew, leading me to enroll in a Computer Science degree program in 2015, and I began working professionally in my first internship in 2016. I am deeply grateful for working with something I worship.',
       about_languages: 'Languages',
@@ -102,6 +104,15 @@ export default {
       projects_intro:
         'Here are some of the projects I have worked on. The remaining ones can be found on GitHub. I also enjoy creating new interfaces; below are some UI designs I crafted using Figma. ',
       projects_visit: 'Visit my Github',
+      projects_studio_intro:
+        'Sawa Studio apps available for download on the App Store and Google Play. The focus is on healthcare-oriented apps, transforming complex data into clear and accessible information.',
+      projects_personal_title: 'Personal Projects',
+      projects_personal_intro:
+        'Personal projects developed for practice, learning, fun, and portfolio.',
+      projects_more_info: 'More information',
+      projects_cid360_title: 'CID 360°: ICD-10 and ICD-11 Search',
+      projects_cid360_description:
+        'App to search ICD-10 and ICD-11 codes offline by disease name, clinical term, or code number. Includes SIGTAP and TUSS integration.',
       project1:
         'Coffee Delivery is coffee e-commerce front-end that uses Context API and json-server.',
       project2:

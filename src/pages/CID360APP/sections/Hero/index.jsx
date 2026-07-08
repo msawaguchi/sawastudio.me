@@ -32,7 +32,13 @@ export function Hero() {
               >
                 {HERO.androidLabel}
               </PrimaryButton>
-              <SecondaryButton href="#download">{HERO.iosLabel}</SecondaryButton>
+              <SecondaryButton
+                href={LINKS.appStore}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {HERO.iosLabel}
+              </SecondaryButton>
             </ButtonGroup>
 
             <HeroNote>{HERO.availabilityNote}</HeroNote>

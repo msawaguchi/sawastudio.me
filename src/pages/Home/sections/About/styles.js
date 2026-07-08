@@ -11,6 +11,14 @@ export const AboutContainer = styled.section`
     margin-bottom: 2rem;
   }
 
+  .studio-intro {
+    padding: 2rem 0 2rem 0rem;
+    color: white;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+
   @media (max-width: 1120px) {
     height: auto;
   }
@@ -154,7 +162,6 @@ export const AboutExperienceContent = styled.div`
     border: 2px solid #56f5ff;
     border-radius: 6px;
     margin-bottom: 0.5rem;
-    display: flex;
     align-items: center;
     transition: max-height 1s ease-in-out;
     height: auto;

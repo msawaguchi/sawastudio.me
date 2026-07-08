@@ -4,7 +4,7 @@ import * as Yup from 'yup'
 import axios from 'axios'
 import { RiLoader3Line, RiMailSendLine } from 'react-icons/ri'
 
-import logotipo from '../../../../assets/images/cid360app/logotipo.webp'
+import logotipo from '../../../../assets/images/cid360app/logotipo.png'
 import getValidationErrors from '../../../../utils/getValidationErrors'
 import { CONTACT, LINKS } from '../../content'
 import {

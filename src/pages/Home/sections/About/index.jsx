@@ -37,10 +37,13 @@ export function About() {
     <AboutContainer id="about">
       <Divider />
       <div className="hero-mask">
-        <AboutContent>
+        <AboutContent> 
           <h1 className="h1-title">
             <Translator path="about.about" />
           </h1>
+          <strong className="studio-intro">
+            <Translator path="about.about_studio_intro" />
+          </strong>
           <div className="mosaic-container">
             <div className="mosaic">
               <NeonContentContainer>

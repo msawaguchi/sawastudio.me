@@ -217,6 +217,10 @@ export const HeroLastPostSection = styled.div`
       font-size: 1rem;
       margin-bottom: 1rem;
     }
+
+    a, button {
+      width: 100%;
+    }
   }
 `
 export const HeroMenuButton = styled.a`

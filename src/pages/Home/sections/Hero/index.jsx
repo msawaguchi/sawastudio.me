@@ -150,9 +150,9 @@ export function Hero() {
                     <p>
                       <Translator path="hero.blog_last_post_teaser" />
                     </p>
-                    <Button>
-                      <Translator path="blog.blog_read_more" />
-                    </Button>
+                    <a href="https://sawastudio.me/blog/index.php/2022/12/29/paradigmas-de-programacao-imperativo-e-declarativo/">
+                      <Button><Translator path="blog.blog_read_more" /></Button>
+                    </a>
                   </div>
                 </HeroLastPostSection>
               </NeonContentContainer>
